@@ -33,6 +33,20 @@ A fizetési riportok áttekintést adnak a közösséged bevételeiről – lát
 3. Szűrhetsz csomag szerint, vagy rákereshetsz névre / e-mail-címre.
 4. Egy előfizetőre kattintva megtekintheted az előfizetési történetét, és szükség esetén manuálisan lemondhatod vagy módosíthatod az előfizetését.
 
+### Lejáró próbaidők
+
+Az **Előfizetők** oldal figyelmeztető dobozban mutatja a hét napon belül lejáró próbaidőket, amelyekből a jelenlegi adatok szerint nem indul fizetős előfizetés. Soronként látod a tagot, a csomagot, a lejáratot és az okot, például a megadott bankkártya hiányát.
+
+Az **Újraellenőrzés** gomb friss adatokat kér a Stripe-ból. Ha az ellenőrzés nem sikerül, az oldal ezt külön jelzi; ilyenkor nézd meg az előfizetést a Stripe-ban. Ha nincs érintett próbaidő, a doboz nem jelenik meg.
+
+Az adminok és a tulajdonosok harangértesítést is kapnak a közelgő lejáratról. Ugyanarra a lejárati napra egyszer érkezik jelzés; meghosszabbított próbaidőnél az új lejárat előtt ismét szól a rendszer. Az értesítés nem mondja le és nem hosszabbítja meg az előfizetést.
+
+### Új előfizető értesítése
+
+Új előfizetés indításakor minden aktív admin és tulajdonos harangértesítést kap a tag nevével és a csomaggal. A jelzés az **Előfizetők** listájára vezet. Régi tag megújító vásárlását a **Megújított előfizetés** cím különbözteti meg.
+
+A szokásos havi vagy éves terhelés, a csomagváltás és az egyszeri vásárlás nem küld ilyen értesítést.
+
 ### Lemondások
 
 1. Lépj a **Fizetés → Riportok → Lemondások** fülre.
