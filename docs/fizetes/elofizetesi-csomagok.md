@@ -29,6 +29,16 @@ Az előfizetési csomagok az árképzési terveid – meghatározod, mennyiért 
 
 ![Előfizetési csomagok kezelése](./screenshots/elofizetesi-csomagok.png)
 
+## Lemondási kérelmek kezelése
+
+A tag a **Profilom → Előfizetésem** felületen az **Előfizetés lemondása** gombbal nyitja meg a kapcsolati ablakot. Az **E-mailt írok** gomb előre kitöltött levelet nyit a levelezőjében, a tag nevével, e-mail-címével és csomagjával. A tagnak ezt a levelet még el kell küldenie; a gomb megnyomása önmagában nem mondja le az előfizetést.
+
+A lemondást a közösség adminisztrátora intézi. A kapcsolati ablak a közösséghez beállított ügyfélkapcsolati címet mutatja, ennek hiányában az **Admin → E-mailek** válaszcímét. Ha nincs megadott cím, az ablak a közösség adminisztrátorához irányítja a tagot.
+
+Az aktív, rendezett előfizetés lemondásakor a hozzáférés a kifizetett időszak végéig megmarad. Lejárt, sikertelen megújításnál az admin azonnal lemondhatja az előfizetést; ekkor a fizetős hozzáférés is megszűnik.
+
+A tag közösségből való eltávolítása lezárja a hozzáféréseit, de az élő Stripe-előfizetését külön kell lemondani, hogy ne folytatódjon a terhelés.
+
 ## Tippek
 
 - Éves csomaghoz kedvezmény állítható be – mutasd meg a tagoknak, mennyit spórolnak az éves előfizetéssel a havihoz képest.
