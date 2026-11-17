@@ -8,6 +8,8 @@ sidebar_position: 5
 
 Az onboarding-túra rövid lépésekkel mutatja be a közösség felületét. Egy lépés kiemelhet egy menüpontot vagy teret, az utolsó pedig egy választott oldalra vezethet. A túra nem ad hozzáférést fizetős tartalomhoz.
 
+A külön **Beállítások → Onboarding** oldalon az új tagok alapértelmezett terei és címkéi állíthatók be. Ez a cikk az **Onboarding tour** bemutatóját ismerteti.
+
 ## Lépésről lépésre
 
 1. Nyisd meg az admin **Beállítások → Onboarding tour** oldalát (`/admin/settings/onboarding-tour`).
